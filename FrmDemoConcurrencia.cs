@@ -22,7 +22,7 @@ namespace DemoConcu_Jherson_Kelvin_Diaz_Bravo
 
         private void btnSecuencial_Click(object sender, EventArgs e)
         {
-            ActualizarResultado("Iniciando proceso secuencial...");
+            ActualizarResultado("!Iniciando proceso secuencial¡...");
             for (int i = 0; i < 5; i++)
             {//Sleep: Detiene el procesamiento o dormir
                 Thread.Sleep(2000); //Carga la segunda linea después de cada 2 segundos
